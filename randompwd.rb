@@ -8,8 +8,3 @@ chars = (('a'..'z').to_a + ('0'..'9').to_a) - %w(i o 0 1 l 0)
 
 end
 puts "Your random password is: #{random_password}"
-
-#testinggit
-
-
-#random_password = IO.popen('pbpaste', 'r+').read IO.popen('pbcopy', 'w').puts random_password
